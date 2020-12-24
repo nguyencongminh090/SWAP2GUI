@@ -1,0 +1,1649 @@
+Compiled on Apr 23 2020 at 02:42:48
+Launched in Engine\
+Answered : MESSAGE Detected following devices : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Answered : MESSAGE Using : CPU : GenuineIntel : 4 x AVX with 4043MB of memory
+Got : START 15
+Answered : OK
+Got : INFO max_memory 2306867200
+Got : INFO timeout_match 60000
+Got : INFO timeout_turn 60000
+Got : INFO game_type 1
+Got : INFO rule 1
+Got : INFO time_left 60000
+Got : SWAP2BOARD
+Got : 7,7
+Got : 2,6
+Got : 2,4
+Got : DONE
+Answered : MESSAGE depth 1-1 ev 26.8 n 16 n/s 6 tm 2623 pv Oa0
+Overall 222 children
+sum of visits = 0
+BEST
+CIRCLE (5, 4) Q=0% : H=0.266 : Visit=0 : 0
+CIRCLE (7, 4) Q=0% : H=0.229 : Visit=0 : 0
+CIRCLE (5, 5) Q=0% : H=0.122 : Visit=0 : 0
+CIRCLE (6, 4) Q=0% : H=0.113 : Visit=0 : 0
+CIRCLE (7, 3) Q=0% : H=0.089 : Visit=0 : 0
+CIRCLE (6, 3) Q=0% : H=0.076 : Visit=0 : 0
+CIRCLE (7, 2) Q=0% : H=0.022 : Visit=0 : 0
+CIRCLE (8, 3) Q=0% : H=0.014 : Visit=0 : 0
+CIRCLE (8, 2) Q=0% : H=0.013 : Visit=0 : 0
+CIRCLE (4, 4) Q=0% : H=0.013 : Visit=0 : 0
+WORST
+CIRCLE (11, 7) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (8, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (7, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (5, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (11, 6) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (5, 0) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (10, 1) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (6, 13) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (6, 0) Q=0% : H=0 : Visit=0 : 0
+CIRCLE (4, 11) Q=0% : H=0 : Visit=0 : 0
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   X    1  13  10  _   _   _   _   _   _   _   _   _ 
+  _   _   _    3 266 122  _   _   _   _   _   _   _   _   _ 
+  _   _   O   76 113   2  _   _   _   _   _   _   _   _   _ 
+  _   _   22  89 229   6  _   X   _   _   _   _   _   _   _ 
+  _   _   13  14  11  _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 0k / 42M (0%)
+memory = 1285.67 MB
+0 : CROSS  (-1, -1) Q=73.1% : H=1 : Visit=1 : 222
+1 : CIRCLE (5, 4) Q=0% : H=0.266 : Visit=0 : 0
+Total 1 move ahead
+----NNCACHE-INFO----
+memory = 0.0180206 MB / 857.112MB
+stored = 16 elements
+calls  = 16
+hits   = 0 (0%)
+--------------------
+nodes left = 3192
+steps left = 11
+using 0.0526331s out of 9s left
+median imbalance = 0.457982
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 3176
+steps left = 11
+using 0.0523253s out of 8.94737s left
+----MOST-BALANCED-MOVES----
+CIRCLE (4, 0) Q=56% : H=1 : Visit=1 : 56
+CROSS  (2, 0) Q=43.9% : H=1 : Visit=1 : 27
+---------------------------
+median imbalance = 0.452401
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 3152
+steps left = 11
+using 0.0520193s out of 8.89504s left
+----MOST-BALANCED-MOVES----
+CIRCLE (4, 0) Q=56% : H=1 : Visit=1 : 56
+CROSS  (2, 0) Q=43.9% : H=1 : Visit=1 : 27
+---------------------------
+median imbalance = 0.400505
+depth=1 : removed 0/57
+depth=2 : removed 28/56
+nodes left = 3124
+steps left = 11
+using 0.0517151s out of 8.84302s left
+----MOST-BALANCED-MOVES----
+CIRCLE (4, 0) Q=56% : H=1 : Visit=1 : 56
+CROSS  (2, 0) Q=43.9% : H=1 : Visit=1 : 27
+---------------------------
+median imbalance = 0.263514
+depth=1 : removed 0/57
+depth=2 : removed 30/60
+nodes left = 3094
+steps left = 11
+using 0.0514126s out of 8.79131s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 9) Q=70.3% : H=1 : Visit=2 : 56
+CROSS  (2, 1) Q=49.6% : H=1 : Visit=1 : 50
+---------------------------
+median imbalance = 0.208496
+depth=1 : removed 0/57
+depth=2 : removed 31/62
+nodes left = 3063
+steps left = 11
+using 0.051112s out of 8.73989s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 9) Q=49.6% : H=1 : Visit=3 : 56
+CROSS  (2, 1) Q=49.6% : H=1 : Visit=1 : 50
+---------------------------
+median imbalance = 0.2775
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 3031
+steps left = 11
+using 0.050813s out of 8.68878s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 9) Q=49.6% : H=1 : Visit=3 : 56
+CROSS  (2, 1) Q=49.6% : H=1 : Visit=1 : 50
+---------------------------
+median imbalance = 0.162052
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2999
+steps left = 11
+using 0.0505159s out of 8.63797s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=73.7% : H=1 : Visit=4 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.133643
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2967
+steps left = 11
+using 0.0502205s out of 8.58745s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=73.7% : H=1 : Visit=4 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.128516
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2935
+steps left = 11
+using 0.0499268s out of 8.53723s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=64% : H=1 : Visit=5 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.122997
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2903
+steps left = 11
+using 0.0496348s out of 8.48731s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=69.5% : H=1 : Visit=6 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.107948
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2871
+steps left = 11
+using 0.0493445s out of 8.43767s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=69.5% : H=1 : Visit=6 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0676839
+depth=1 : removed 0/57
+depth=2 : removed 24/47
+nodes left = 2847
+steps left = 11
+using 0.0490559s out of 8.38833s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=69.5% : H=1 : Visit=6 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0665017
+depth=1 : removed 0/57
+depth=2 : removed 28/55
+nodes left = 2819
+steps left = 11
+using 0.0487691s out of 8.33927s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=71.8% : H=1 : Visit=7 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0660231
+depth=1 : removed 0/57
+depth=2 : removed 30/59
+nodes left = 2789
+steps left = 11
+using 0.0484839s out of 8.2905s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=68.7% : H=1 : Visit=8 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0648098
+depth=1 : removed 0/57
+depth=2 : removed 31/61
+nodes left = 2758
+steps left = 11
+using 0.0482003s out of 8.24202s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=68.7% : H=1 : Visit=8 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.144708
+depth=1 : removed 0/57
+depth=2 : removed 31/62
+nodes left = 2727
+steps left = 11
+using 0.0479184s out of 8.19382s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=9 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0602547
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 2695
+steps left = 11
+using 0.0476382s out of 8.1459s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=9 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0428697
+depth=1 : removed 0/57
+depth=2 : removed 24/47
+nodes left = 2671
+steps left = 11
+using 0.0473596s out of 8.09826s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=9 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0363663
+depth=1 : removed 0/57
+depth=2 : removed 20/39
+nodes left = 2651
+steps left = 11
+using 0.0470826s out of 8.0509s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.1% : H=1 : Visit=10 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.294108
+depth=1 : removed 0/57
+depth=2 : removed 26/51
+nodes left = 2625
+steps left = 11
+using 0.0468073s out of 8.00382s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.1% : H=1 : Visit=10 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.232676
+depth=1 : removed 0/57
+depth=2 : removed 29/57
+nodes left = 2596
+steps left = 11
+using 0.0465336s out of 7.95701s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=11 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0445853
+depth=1 : removed 0/57
+depth=2 : removed 22/44
+nodes left = 2574
+steps left = 11
+using 0.0462614s out of 7.91048s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=11 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0278468
+depth=1 : removed 0/57
+depth=2 : removed 19/38
+nodes left = 2555
+steps left = 11
+using 0.0459909s out of 7.86422s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=63.5% : H=1 : Visit=11 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0225172
+depth=1 : removed 0/57
+depth=2 : removed 18/35
+nodes left = 2537
+steps left = 11
+using 0.0457219s out of 7.81823s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=64.2% : H=1 : Visit=12 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0198131
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 2520
+steps left = 11
+using 0.0454545s out of 7.7725s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=64.2% : H=1 : Visit=12 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0374762
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2504
+steps left = 11
+using 0.0451887s out of 7.72705s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=64.2% : H=1 : Visit=12 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0680829
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2488
+steps left = 11
+using 0.0449244s out of 7.68186s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.6% : H=1 : Visit=13 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.295165
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2472
+steps left = 11
+using 0.0446617s out of 7.63694s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.6% : H=1 : Visit=13 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.303009
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2456
+steps left = 11
+using 0.0444005s out of 7.59227s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.6% : H=1 : Visit=13 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.306655
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2440
+steps left = 11
+using 0.0441409s out of 7.54787s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60.6% : H=1 : Visit=13 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.190899
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2424
+steps left = 11
+using 0.0438827s out of 7.50373s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=57.3% : H=1 : Visit=14 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0964571
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2408
+steps left = 11
+using 0.0436261s out of 7.45985s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=57.3% : H=1 : Visit=14 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0198104
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 2392
+steps left = 11
+using 0.043371s out of 7.41622s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=57.3% : H=1 : Visit=14 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.317271
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 2368
+steps left = 11
+using 0.0431173s out of 7.37285s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60% : H=1 : Visit=15 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0973246
+depth=1 : removed 0/57
+depth=2 : removed 20/40
+nodes left = 2348
+steps left = 11
+using 0.0428652s out of 7.32974s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60% : H=1 : Visit=15 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0302863
+depth=1 : removed 0/57
+depth=2 : removed 18/36
+nodes left = 2330
+steps left = 11
+using 0.0426145s out of 7.28687s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=60% : H=1 : Visit=15 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0156553
+depth=1 : removed 0/57
+depth=2 : removed 17/34
+nodes left = 2313
+steps left = 11
+using 0.0423653s out of 7.24426s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=59.4% : H=0.999 : Visit=16 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.132351
+depth=1 : removed 0/57
+depth=2 : removed 25/49
+nodes left = 2288
+steps left = 11
+using 0.0421175s out of 7.20189s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=59.4% : H=0.999 : Visit=16 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0711901
+depth=1 : removed 0/57
+depth=2 : removed 28/56
+nodes left = 2260
+steps left = 11
+using 0.0418712s out of 7.15977s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=59% : H=1 : Visit=17 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0261986
+depth=1 : removed 0/57
+depth=2 : removed 22/44
+nodes left = 2238
+steps left = 11
+using 0.0416263s out of 7.1179s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=59% : H=1 : Visit=17 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.0157118
+depth=1 : removed 0/57
+depth=2 : removed 19/38
+nodes left = 2219
+steps left = 11
+using 0.0413829s out of 7.07628s left
+----MOST-BALANCED-MOVES----
+CIRCLE (5, 7) Q=59% : H=1 : Visit=17 : 56
+CROSS  (2, 3) Q=50% : H=1 : Visit=1 : 41
+---------------------------
+median imbalance = 0.225522
+depth=1 : removed 0/57
+depth=2 : removed 26/51
+nodes left = 2193
+steps left = 11
+using 0.0411409s out of 7.03489s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=43% : H=1 : Visit=17 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.204353
+depth=1 : removed 0/57
+depth=2 : removed 29/57
+nodes left = 2164
+steps left = 11
+using 0.0409003s out of 6.99375s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=43% : H=1 : Visit=17 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0330966
+depth=1 : removed 0/57
+depth=2 : removed 22/44
+nodes left = 2142
+steps left = 11
+using 0.0406611s out of 6.95285s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=40.9% : H=1 : Visit=18 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0150478
+depth=1 : removed 0/57
+depth=2 : removed 19/38
+nodes left = 2123
+steps left = 11
+using 0.0404233s out of 6.91219s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=40.9% : H=1 : Visit=18 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0130894
+depth=1 : removed 0/57
+depth=2 : removed 18/35
+nodes left = 2105
+steps left = 11
+using 0.0401869s out of 6.87177s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=40.9% : H=1 : Visit=18 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.403402
+depth=1 : removed 0/57
+depth=2 : removed 25/49
+nodes left = 2080
+steps left = 11
+using 0.0399519s out of 6.83158s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=39.2% : H=1 : Visit=19 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.342642
+depth=1 : removed 0/57
+depth=2 : removed 28/56
+nodes left = 2052
+steps left = 11
+using 0.0397183s out of 6.79163s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=39.2% : H=1 : Visit=19 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.329874
+depth=1 : removed 0/57
+depth=2 : removed 30/60
+nodes left = 2022
+steps left = 10
+using 0.0595774s out of 6.75191s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=37.3% : H=1 : Visit=20 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.297127
+depth=1 : removed 0/57
+depth=2 : removed 31/62
+nodes left = 1991
+steps left = 10
+using 0.0590517s out of 6.69233s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=37.3% : H=1 : Visit=20 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.160509
+depth=1 : removed 0/57
+depth=2 : removed 32/63
+nodes left = 1959
+steps left = 10
+using 0.0585306s out of 6.63328s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=37.3% : H=1 : Visit=20 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0802172
+depth=1 : removed 0/57
+depth=2 : removed 24/47
+nodes left = 1935
+steps left = 10
+using 0.0580142s out of 6.57475s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=35.9% : H=1 : Visit=21 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0272809
+depth=1 : removed 0/57
+depth=2 : removed 20/39
+nodes left = 1915
+steps left = 10
+using 0.0575023s out of 6.51674s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=35.9% : H=1 : Visit=21 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0128125
+depth=1 : removed 0/57
+depth=2 : removed 18/35
+nodes left = 1897
+steps left = 10
+using 0.0569949s out of 6.45923s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=35.9% : H=1 : Visit=21 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0119896
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 1880
+steps left = 10
+using 0.056492s out of 6.40224s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=35.9% : H=1 : Visit=21 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0683773
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1864
+steps left = 10
+using 0.0559935s out of 6.34575s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.3% : H=0.999 : Visit=22 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0419894
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1848
+steps left = 10
+using 0.0554994s out of 6.28975s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.3% : H=0.999 : Visit=22 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.219165
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 1824
+steps left = 10
+using 0.0550097s out of 6.23425s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.3% : H=0.999 : Visit=22 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.106914
+depth=1 : removed 0/57
+depth=2 : removed 20/40
+nodes left = 1804
+steps left = 10
+using 0.0545243s out of 6.17924s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.3% : H=1 : Visit=23 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0392626
+depth=1 : removed 0/57
+depth=2 : removed 18/36
+nodes left = 1786
+steps left = 10
+using 0.0540432s out of 6.12472s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.3% : H=1 : Visit=23 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0261757
+depth=1 : removed 0/57
+depth=2 : removed 17/34
+nodes left = 1769
+steps left = 10
+using 0.0535663s out of 6.07068s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.3% : H=1 : Visit=23 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0210965
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 1752
+steps left = 10
+using 0.0530937s out of 6.01711s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.3% : H=1 : Visit=23 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0342271
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1736
+steps left = 10
+using 0.0526252s out of 5.96402s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.1% : H=1 : Visit=24 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0119504
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1720
+steps left = 10
+using 0.0521608s out of 5.91139s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.1% : H=1 : Visit=24 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.351225
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 1696
+steps left = 10
+using 0.0517006s out of 5.85923s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.1% : H=1 : Visit=24 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.26216
+depth=1 : removed 0/57
+depth=2 : removed 28/56
+nodes left = 1668
+steps left = 10
+using 0.0512444s out of 5.80753s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.5% : H=1 : Visit=25 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.127326
+depth=1 : removed 0/57
+depth=2 : removed 22/44
+nodes left = 1646
+steps left = 10
+using 0.0507922s out of 5.75629s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.5% : H=1 : Visit=25 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0444413
+depth=1 : removed 0/57
+depth=2 : removed 19/38
+nodes left = 1627
+steps left = 10
+using 0.050344s out of 5.70549s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.5% : H=1 : Visit=25 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.167398
+depth=1 : removed 0/57
+depth=2 : removed 26/51
+nodes left = 1601
+steps left = 10
+using 0.0498998s out of 5.65515s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=35.7% : H=0.999 : Visit=26 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.164134
+depth=1 : removed 0/57
+depth=2 : removed 29/57
+nodes left = 1572
+steps left = 10
+using 0.0494595s out of 5.60525s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.8% : H=1 : Visit=27 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.102365
+depth=1 : removed 0/57
+depth=2 : removed 30/60
+nodes left = 1542
+steps left = 10
+using 0.0490231s out of 5.55579s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.8% : H=1 : Visit=27 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0475198
+depth=1 : removed 0/57
+depth=2 : removed 23/46
+nodes left = 1519
+steps left = 10
+using 0.0485905s out of 5.50677s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=34.8% : H=1 : Visit=27 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0365316
+depth=1 : removed 0/57
+depth=2 : removed 20/39
+nodes left = 1499
+steps left = 10
+using 0.0481618s out of 5.45818s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.6% : H=0.999 : Visit=28 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0234405
+depth=1 : removed 0/57
+depth=2 : removed 18/35
+nodes left = 1481
+steps left = 10
+using 0.0477368s out of 5.41002s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.6% : H=0.999 : Visit=28 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0117759
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 1464
+steps left = 10
+using 0.0473156s out of 5.36228s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.6% : H=0.999 : Visit=28 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0329385
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1448
+steps left = 10
+using 0.0468981s out of 5.31496s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33.6% : H=0.999 : Visit=28 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.323581
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 1424
+steps left = 10
+using 0.0464843s out of 5.26806s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.6% : H=0.999 : Visit=29 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.26185
+depth=1 : removed 0/57
+depth=2 : removed 28/56
+nodes left = 1396
+steps left = 10
+using 0.0460741s out of 5.22158s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.6% : H=0.999 : Visit=29 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.102202
+depth=1 : removed 0/57
+depth=2 : removed 30/60
+nodes left = 1366
+steps left = 10
+using 0.0456675s out of 5.17551s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.5% : H=0.999 : Visit=30 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.110409
+depth=1 : removed 0/57
+depth=2 : removed 31/62
+nodes left = 1335
+steps left = 10
+using 0.0452646s out of 5.12984s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.5% : H=0.999 : Visit=30 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0473899
+depth=1 : removed 0/57
+depth=2 : removed 24/47
+nodes left = 1311
+steps left = 10
+using 0.0448652s out of 5.08457s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.5% : H=0.999 : Visit=30 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0326155
+depth=1 : removed 0/57
+depth=2 : removed 20/39
+nodes left = 1291
+steps left = 10
+using 0.0444693s out of 5.03971s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.5% : H=0.999 : Visit=30 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0238107
+depth=1 : removed 0/57
+depth=2 : removed 18/35
+nodes left = 1273
+steps left = 10
+using 0.0440769s out of 4.99524s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.5% : H=1 : Visit=31 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0193114
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 1256
+steps left = 10
+using 0.043688s out of 4.95116s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.5% : H=1 : Visit=31 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0844387
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 1240
+steps left = 10
+using 0.0433025s out of 4.90747s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.5% : H=1 : Visit=31 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.269122
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 1216
+steps left = 10
+using 0.0429204s out of 4.86417s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.6% : H=1 : Visit=32 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.184426
+depth=1 : removed 0/57
+depth=2 : removed 20/40
+nodes left = 1196
+steps left = 10
+using 0.0425417s out of 4.82125s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.6% : H=1 : Visit=32 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.169599
+depth=1 : removed 0/57
+depth=2 : removed 26/52
+nodes left = 1170
+steps left = 10
+using 0.0421663s out of 4.77871s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.6% : H=1 : Visit=32 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0753115
+depth=1 : removed 0/57
+depth=2 : removed 21/42
+nodes left = 1149
+steps left = 10
+using 0.0417942s out of 4.73654s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.6% : H=1 : Visit=32 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.219156
+depth=1 : removed 0/57
+depth=2 : removed 27/53
+nodes left = 1122
+steps left = 10
+using 0.0414255s out of 4.69475s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.9% : H=0.999 : Visit=33 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0399166
+depth=1 : removed 0/57
+depth=2 : removed 21/42
+nodes left = 1101
+steps left = 10
+using 0.0410599s out of 4.65332s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.9% : H=0.999 : Visit=33 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.142045
+depth=1 : removed 0/57
+depth=2 : removed 27/53
+nodes left = 1074
+steps left = 10
+using 0.0406976s out of 4.61226s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.9% : H=0.999 : Visit=33 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0372004
+depth=1 : removed 0/57
+depth=2 : removed 21/42
+nodes left = 1053
+steps left = 10
+using 0.0403385s out of 4.57157s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=0.999 : Visit=34 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0189544
+depth=1 : removed 0/57
+depth=2 : removed 19/37
+nodes left = 1034
+steps left = 10
+using 0.0399826s out of 4.53123s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=0.999 : Visit=34 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.186427
+depth=1 : removed 0/57
+depth=2 : removed 25/50
+nodes left = 1009
+steps left = 9
+using 0.0599739s out of 4.49125s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.3% : H=1 : Visit=35 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0484179
+depth=1 : removed 0/57
+depth=2 : removed 21/41
+nodes left = 988
+steps left = 9
+using 0.059173s out of 4.43127s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.3% : H=1 : Visit=35 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0106909
+depth=1 : removed 0/57
+depth=2 : removed 18/36
+nodes left = 970
+steps left = 9
+using 0.0583828s out of 4.3721s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.3% : H=1 : Visit=35 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0898921
+depth=1 : removed 0/57
+depth=2 : removed 25/50
+nodes left = 945
+steps left = 9
+using 0.0576032s out of 4.31372s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33% : H=1 : Visit=36 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0251234
+depth=1 : removed 0/57
+depth=2 : removed 21/41
+nodes left = 924
+steps left = 9
+using 0.056834s out of 4.25611s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=33% : H=1 : Visit=36 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.010455
+depth=1 : removed 0/57
+depth=2 : removed 18/36
+nodes left = 906
+steps left = 9
+using 0.0560751s out of 4.19928s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.4% : H=1 : Visit=37 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.00955617
+depth=1 : removed 0/57
+depth=2 : removed 17/34
+nodes left = 889
+steps left = 9
+using 0.0553263s out of 4.1432s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.4% : H=1 : Visit=37 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.00838059
+depth=1 : removed 0/57
+depth=2 : removed 17/33
+nodes left = 872
+steps left = 9
+using 0.0545875s out of 4.08788s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.4% : H=1 : Visit=37 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0175946
+depth=1 : removed 0/57
+depth=2 : removed 16/32
+nodes left = 856
+steps left = 9
+using 0.0538585s out of 4.03329s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=32.4% : H=1 : Visit=37 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.327316
+depth=1 : removed 0/57
+depth=2 : removed 24/48
+nodes left = 832
+steps left = 9
+using 0.0531393s out of 3.97943s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.6% : H=0.999 : Visit=38 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.174358
+depth=1 : removed 0/57
+depth=2 : removed 20/40
+nodes left = 812
+steps left = 9
+using 0.0524298s out of 3.92629s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.6% : H=0.999 : Visit=38 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.229785
+depth=1 : removed 2/57
+depth=2 : removed 26/52
+nodes left = 786
+steps left = 9
+using 0.0517296s out of 3.87386s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.6% : H=0.999 : Visit=38 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0723776
+depth=1 : removed 3/57
+depth=2 : removed 21/42
+nodes left = 765
+steps left = 9
+using 0.0510389s out of 3.82213s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=1 : Visit=39 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0369583
+depth=1 : removed 4/57
+depth=2 : removed 19/37
+nodes left = 746
+steps left = 9
+using 0.0503573s out of 3.77109s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=1 : Visit=39 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.281037
+depth=1 : removed 4/57
+depth=2 : removed 25/49
+nodes left = 721
+steps left = 9
+using 0.0496849s out of 3.72074s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=1 : Visit=39 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.127399
+depth=1 : removed 7/57
+depth=2 : removed 20/40
+nodes left = 701
+steps left = 9
+using 0.0490214s out of 3.67105s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.8% : H=1 : Visit=39 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0214974
+depth=1 : removed 7/57
+depth=2 : removed 18/36
+nodes left = 683
+steps left = 9
+using 0.0483668s out of 3.62203s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30% : H=1 : Visit=40 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.169367
+depth=1 : removed 8/57
+depth=2 : removed 25/50
+nodes left = 658
+steps left = 9
+using 0.0477209s out of 3.57366s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30% : H=1 : Visit=40 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0228732
+depth=1 : removed 10/57
+depth=2 : removed 21/41
+nodes left = 637
+steps left = 9
+using 0.0470837s out of 3.52594s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30% : H=1 : Visit=40 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0142737
+depth=1 : removed 11/57
+depth=2 : removed 17/34
+nodes left = 620
+steps left = 9
+using 0.046455s out of 3.47886s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.3% : H=1 : Visit=41 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0102809
+depth=1 : removed 11/57
+depth=2 : removed 17/33
+nodes left = 603
+steps left = 9
+using 0.0458346s out of 3.4324s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.3% : H=1 : Visit=41 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.223837
+depth=1 : removed 11/57
+depth=2 : removed 23/46
+nodes left = 580
+steps left = 9
+using 0.0452226s out of 3.38657s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.7% : H=0.999 : Visit=42 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.101986
+depth=1 : removed 12/57
+depth=2 : removed 20/39
+nodes left = 560
+steps left = 9
+using 0.0446187s out of 3.34135s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.7% : H=0.999 : Visit=42 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.049183
+depth=1 : removed 12/57
+depth=2 : removed 18/35
+nodes left = 542
+steps left = 9
+using 0.0440229s out of 3.29673s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.7% : H=0.999 : Visit=42 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0249259
+depth=1 : removed 12/57
+depth=2 : removed 17/33
+nodes left = 525
+steps left = 9
+using 0.043435s out of 3.25271s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.7% : H=0.999 : Visit=42 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0167409
+depth=1 : removed 14/57
+depth=2 : removed 16/31
+nodes left = 509
+steps left = 8
+using 0.0651525s out of 3.20927s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.3% : H=1 : Visit=43 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.020438
+depth=1 : removed 14/57
+depth=2 : removed 16/31
+nodes left = 493
+steps left = 8
+using 0.0638298s out of 3.14412s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.3% : H=1 : Visit=43 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0527011
+depth=1 : removed 14/57
+depth=2 : removed 16/31
+nodes left = 477
+steps left = 8
+using 0.062534s out of 3.08029s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.4% : H=1 : Visit=44 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0367439
+depth=1 : removed 14/57
+depth=2 : removed 16/31
+nodes left = 461
+steps left = 8
+using 0.0612645s out of 3.01775s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.4% : H=1 : Visit=44 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0243655
+depth=1 : removed 16/57
+depth=2 : removed 16/31
+nodes left = 445
+steps left = 8
+using 0.0600207s out of 2.95649s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.9% : H=0.999 : Visit=45 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.250225
+depth=1 : removed 17/57
+depth=2 : removed 23/46
+nodes left = 422
+steps left = 8
+using 0.0588022s out of 2.89647s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.8% : H=1 : Visit=46 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.133776
+depth=1 : removed 18/57
+depth=2 : removed 27/54
+nodes left = 395
+steps left = 8
+using 0.0576085s out of 2.83767s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.8% : H=1 : Visit=46 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0893537
+depth=1 : removed 18/57
+depth=2 : removed 22/43
+nodes left = 373
+steps left = 8
+using 0.0564389s out of 2.78006s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.2% : H=1 : Visit=47 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0394745
+depth=1 : removed 19/57
+depth=2 : removed 19/37
+nodes left = 354
+steps left = 8
+using 0.0552931s out of 2.72362s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.2% : H=1 : Visit=47 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0296672
+depth=1 : removed 19/57
+depth=2 : removed 17/34
+nodes left = 337
+steps left = 8
+using 0.0541706s out of 2.66833s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=31.2% : H=1 : Visit=47 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.00846761
+depth=1 : removed 19/57
+depth=2 : removed 17/33
+nodes left = 320
+steps left = 8
+using 0.0530709s out of 2.61416s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.6% : H=1 : Visit=48 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0851402
+depth=1 : removed 21/57
+depth=2 : removed 15/30
+nodes left = 305
+steps left = 8
+using 0.0519935s out of 2.56108s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30.6% : H=1 : Visit=48 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.353409
+depth=1 : removed 21/57
+depth=2 : removed 24/47
+nodes left = 281
+steps left = 8
+using 0.0509379s out of 2.50909s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30% : H=1 : Visit=49 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.150235
+depth=1 : removed 22/57
+depth=2 : removed 19/38
+nodes left = 262
+steps left = 8
+using 0.0499038s out of 2.45815s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=30% : H=1 : Visit=49 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.136168
+depth=1 : removed 23/57
+depth=2 : removed 17/34
+nodes left = 245
+steps left = 7
+using 0.0748557s out of 2.40825s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.4% : H=1 : Visit=50 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.029379
+depth=1 : removed 24/57
+depth=2 : removed 16/31
+nodes left = 229
+steps left = 7
+using 0.072529s out of 2.33339s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=29.4% : H=1 : Visit=50 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.408752
+depth=1 : removed 25/57
+depth=2 : removed 22/43
+nodes left = 207
+steps left = 7
+using 0.0702746s out of 2.26086s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.9% : H=1 : Visit=51 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.119362
+depth=1 : removed 25/57
+depth=2 : removed 18/35
+nodes left = 189
+steps left = 7
+using 0.0680902s out of 2.19059s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.4% : H=1 : Visit=52 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0773316
+depth=1 : removed 27/57
+depth=2 : removed 15/29
+nodes left = 174
+steps left = 7
+using 0.0659738s out of 2.1225s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=28.4% : H=1 : Visit=52 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.411226
+depth=1 : removed 27/57
+depth=2 : removed 22/43
+nodes left = 152
+steps left = 7
+using 0.0639231s out of 2.05653s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=27.9% : H=0.999 : Visit=53 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.2267
+depth=1 : removed 27/57
+depth=2 : removed 17/34
+nodes left = 135
+steps left = 7
+using 0.0619362s out of 1.9926s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=27.4% : H=0.999 : Visit=54 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0871713
+depth=1 : removed 28/57
+depth=2 : removed 15/30
+nodes left = 120
+steps left = 6
+using 0.0929043s out of 1.93067s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=27.4% : H=0.999 : Visit=54 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0621244
+depth=1 : removed 28/57
+depth=2 : removed 15/30
+nodes left = 105
+steps left = 6
+using 0.0884337s out of 1.83776s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=26.9% : H=0.999 : Visit=55 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0661784
+depth=1 : removed 29/57
+depth=2 : removed 14/27
+nodes left = 91
+steps left = 6
+using 0.0841782s out of 1.74933s left
+----MOST-BALANCED-MOVES----
+CIRCLE (9, 8) Q=26.9% : H=0.999 : Visit=55 : 56
+CROSS  (5, 2) Q=49.9% : H=1 : Visit=1 : 43
+---------------------------
+median imbalance = 0.0544183
+depth=1 : removed 32/57
+depth=2 : removed 12/23
+nodes left = 79
+steps left = 6
+using 0.0801275s out of 1.66515s left
+----MOST-BALANCED-MOVES----
+CIRCLE (3, 2) Q=25.7% : H=0.999 : Visit=55 : 56
+CROSS  (9, 8) Q=49.9% : H=1 : Visit=1 : 26
+---------------------------
+median imbalance = 0.323742
+depth=1 : removed 35/57
+depth=2 : removed 11/22
+nodes left = 68
+steps left = 6
+using 0.0762718s out of 1.58502s left
+----MOST-BALANCED-MOVES----
+CIRCLE (3, 2) Q=25.4% : H=0.999 : Visit=56 : 56
+CROSS  (9, 8) Q=49.9% : H=1 : Visit=1 : 26
+---------------------------
+median imbalance = 0.31592
+depth=1 : removed 38/57
+depth=2 : removed 11/22
+nodes left = 57
+steps left = 5
+using 0.114408s out of 1.50875s left
+----MOST-BALANCED-MOVES----
+CIRCLE (3, 2) Q=25.4% : H=0.999 : Visit=56 : 56
+CROSS  (9, 8) Q=49.9% : H=1 : Visit=1 : 26
+---------------------------
+median imbalance = 0.41447
+depth=1 : removed 39/57
+depth=2 : removed 17/33
+nodes left = 40
+steps left = 5
+using 0.105732s out of 1.39434s left
+----MOST-BALANCED-MOVES----
+CIRCLE (2, 1) Q=13.3% : H=0.999 : Visit=54 : 56
+CROSS  (8, 0) Q=50.1% : H=1 : Visit=1 : 36
+---------------------------
+median imbalance = 0.333358
+depth=1 : removed 39/57
+depth=2 : removed 15/29
+nodes left = 25
+steps left = 4
+using 0.158598s out of 1.28861s left
+----MOST-BALANCED-MOVES----
+CIRCLE (2, 1) Q=13.2% : H=0.999 : Visit=56 : 56
+CROSS  (8, 0) Q=50.1% : H=1 : Visit=1 : 36
+---------------------------
+median imbalance = 0.298457
+depth=1 : removed 45/57
+depth=2 : removed 12/23
+nodes left = 13
+steps left = 3
+using 0.237897s out of 1.13001s left
+----MOST-BALANCED-MOVES----
+CIRCLE (2, 1) Q=13% : H=0.999 : Visit=57 : 56
+CROSS  (8, 0) Q=50.1% : H=1 : Visit=1 : 36
+---------------------------
+median imbalance = 0.140127
+depth=1 : removed 50/57
+depth=2 : removed 6/13
+nodes left = 7
+steps left = 2
+using 0.356846s out of 0.892116s left
+----MOST-BALANCED-MOVES----
+CIRCLE (8, 6) Q=45.2% : H=1 : Visit=80 : 56
+CROSS  (5, 1) Q=52.6% : H=1 : Visit=25 : 34
+---------------------------
+median imbalance = 0.0725302
+depth=1 : removed 54/57
+depth=2 : removed 4/7
+nodes left = 3
+steps left = 1
+using 0.535269s out of 0.535269s left
+----MOST-BALANCED-MOVES----
+CIRCLE (8, 6) Q=46.3% : H=0.999 : Visit=90 : 56
+CROSS  (5, 1) Q=50.5% : H=1 : Visit=35 : 34
+---------------------------
+median imbalance = 0.0389864
+depth=1 : removed 56/57
+depth=2 : removed 2/3
+Answered : MESSAGE depth 1-7 ev 44.5 n 3553 n/s 130 tm 27282 pv Oi6 Xf1 Og4 Xg3 Of5 Xd3 Oc4
+Overall 57 children
+sum of visits = 183
+BEST
+CIRCLE (8, 6) Q=45.3% : H=1 : Visit=127 : 56
+CIRCLE (8, 5) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (5, 3) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (5, 4) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (3, 3) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (7, 2) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (7, 3) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (3, 1) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (6, 1) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (5, 1) Q=0% : H=0 : Visit=1 : 56
+WORST
+CIRCLE (6, 4) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (8, 1) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (7, 5) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (9, 5) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (2, 2) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (8, 4) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (7, 4) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (6, 5) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (4, 4) Q=0% : H=0 : Visit=1 : 56
+CIRCLE (4, 3) Q=0% : H=0 : Visit=1 : 56
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+   5   5   5   5   5  _   _   _   _   _   _   _   _   _   _ 
+   5   5   5   5   5  _   _   _   _   _   _   _   _   _   _ 
+   5   5  X    5   5  _   _   _   _   _   _   _   _   _   _ 
+   5   5   5   5   5   5   5   5   5   5  _   _   _   _   _ 
+   5   5  O    5   5   5   5   5   5   5  _   _   _   _   _ 
+   5   5   5   5   5   5   5  X    5   5  _   _   _   _   _ 
+   5   5   5   5   5   5 693   5   5   5  _   _   _   _   _ 
+  _   _   _   _   _    5   5   5   5   5  _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+nodes used 141k / 42M (0.3%)
+memory = 1285.67 MB
+0 : CROSS  (-1, -1) Q=55.4% : H=1 : Visit=3552 : 57
+1 : CIRCLE (8, 6) Q=45.3% : H=1 : Visit=127 : 56
+2 : CROSS  (5, 1) Q=53.8% : H=1 : Visit=72 : 34
+3 : CIRCLE (6, 4) Q=57.9% : H=0.12 : Visit=22 : 27
+4 : CROSS  (6, 3) Q=44% : H=0.162 : Visit=5 : 32
+5 : CIRCLE (5, 5) Q=53.7% : H=0.325 : Visit=2 : 24
+6 : CROSS  (3, 3) Q=56.1% : H=0.223 : Visit=1 : 15
+7 : CIRCLE (2, 4) Q=0% : H=0.976 : Visit=0 : 0
+Total 7 moves ahead
+----NNCACHE-INFO----
+memory = 4.0186 MB / 857.112MB
+stored = 3568 elements
+calls  = 3569
+hits   = 0 (0%)
+--------------------
+----MOST-BALANCED-MOVES----
+CIRCLE (8, 6) Q=45.3% : H=1 : Visit=127 : 56
+CROSS  (5, 1) Q=53.8% : H=1 : Visit=72 : 34
+---------------------------
+Answered : 6,8 1,5
+Got : END
