@@ -1905,3 +1905,424 @@ SWAP2BOARD
 DONE
 8,1 3,13
 END
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 1
+INFO rule 1
+INFO time_left 60000
+PONDER
+SWAP2BOARD
+7,7
+3,3
+8,12
+DONE
+6,11 10,14
+END
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 1
+INFO rule 1
+INFO time_left 60000
+PONDER
+SWAP2BOARD
+7,7
+3,3
+8,11
+DONE
+5,7 6,13
+END
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 60000
+INFO timeout_turn 60000
+INFO game_type 1
+INFO rule 1
+INFO time_left 60000
+PONDER
+SWAP2BOARD
+7,7
+3,3
+8,12
+DONE
+6,13 2,1
+END
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 180000
+INFO timeout_turn 180000
+INFO game_type 1
+INFO rule 1
+INFO time_left 180000
+PONDER
+SWAP2BOARD
+2,2
+3,7
+5,4
+DONE
+4,2 2,8
+END
+INFO timeout_turn 1200000
+INFO timeout_match 1200000
+INFO time_left 1200000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 10000
+INFO timeout_turn 10000
+INFO game_type 1
+INFO rule 1
+INFO time_left 10000
+PONDER
+SWAP2BOARD
+2,2
+3,6
+5,4
+DONE
+7,5
+END
+______Process started______
+OK
+INFO max_memory 2306867200
+INFO timeout_match 180000
+INFO timeout_turn 180000
+INFO game_type 1
+INFO rule 1
+INFO time_left 180000
+INFO thread_num 8
+SWAP2BOARD
+2,2
+3,6
+5,4
+DONE
+8,5
+END
+INFO timeout_turn 20000
+INFO timeout_match 20000
+INFO time_left 20000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,7,2
+12,10,1
+8,11,2
+done
+YXBALANCETWO
+INFO timeout_turn 1000
+INFO timeout_match 1000
+INFO time_left 1000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,7,2
+done
+YXBALANCETWO
+INFO timeout_turn 1000
+INFO timeout_match 1000
+INFO time_left 1000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,2,1
+10,3,2
+done
+YXBALANCETWO
+INFO timeout_turn 1000
+INFO timeout_match 1000
+INFO time_left 1000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,2,2
+done
+YXBALANCETWO
+INFO timeout_turn 3000
+INFO timeout_match 3000
+INFO time_left 3000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,-25,2
+done
+YXBALANCETWO
+INFO timeout_turn 1000
+INFO timeout_match 1000
+INFO time_left 1000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,7,2
+done
+YXBALANCETWO
+INFO timeout_turn 1000
+INFO timeout_match 1000
+INFO time_left 1000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,7,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 10000
+INFO timeout_match 10000
+INFO time_left 10000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,1,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+12,2,2
+8,3,1
+10,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 10000000
+INFO timeout_match 10000000
+INFO time_left 10000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+11,3,2
+8,11,1
+6,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 100000000
+INFO timeout_match 100000000
+INFO time_left 100000000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+11,3,2
+8,11,1
+6,5,2
+done
+YXBALANCETWO
+INFO timeout_turn 60000
+INFO timeout_match 13320000
+INFO time_left 60000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,14,2
+done
+YXBALANCETWO

@@ -37,6 +37,8 @@ def get():
         if text == 'SWAP' or ',' in text:
             f.write(text + '\n')
             return text
+        else:
+            print(text.upper())
 
 
 def timematch(b=None):
@@ -59,6 +61,7 @@ def timematch(b=None):
     put('INFO game_type 1')
     put('INFO rule 1')
     put('INFO time_left ' + b)
+    put('INFO thread_num 8')
     return a
 
 
@@ -123,9 +126,10 @@ def debug():
         try:
             text = engine.stdout.readline().strip()
             # print(text)
-            if text != '':
-                print(text.upper())
-            else:
+            if text != '' and 'DETAIL' in text and 'BALANCE' not in text:
+                print('{}     |     Nodes: {}      |      2 Stones: {}'.format(text.split(' ')[2], text.split(' ')[5], text.split(' ')[6]))
+            elif '(BALANCE)' in text:
+                print('--> {}     |     Nodes: {}     |     2 Stones: {}  (Balance)'.format(text.split(' ')[3], text.split(' ')[6], text.split(' ')[7]))
                 break
         except:
             break
@@ -137,7 +141,7 @@ def close():
 
 def testsw(opening, times):
     timematch(times)
-    put('PONDER')
+    ## put('PONDER')
     put('SWAP2BOARD')
     for i in opening:
         put(i)
@@ -151,14 +155,14 @@ def testsw(opening, times):
 
 def yixin_balance(opening, times):
     put('INFO timeout_turn ' + times)
-    put('INFO timeout_match ' + times)
+    put('INFO timeout_match ' + str(int(times) * 222))
     put('INFO time_left ' + times)
     put('INFO max_node 500000000')  # Level 10
     put('INFO max_depth 225')
     put('INFO caution_factor 4')
     put('INFO thread_num 8')
     put('INFO thread_split_depth 20')
-    put('INFO hash_size 21')
+    put('INFO hash_size 2457600')
     put('INFO pondering 1')
     put('INFO vcthread 0')  # Maybe Global Search
     put('INFO rule 1')
