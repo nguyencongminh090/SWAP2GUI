@@ -3,11 +3,16 @@ from tkinter import messagebox
 from tkinter import *
 from tkinter.ttk import *
 import subprocess
+from control import Control
+from threading import Thread
 
 
 # Function
+def clear():
+    scrt.delete('0.0', END)
+
+
 def enter():
-    time_in = 0
     if txbox.get() == '':
         messagebox.showerror(title='Error', message='Opening can not be blank!', default='ok', icon='error')
         return
@@ -22,7 +27,9 @@ def enter():
     else:
         messagebox.showerror(title='Error', message='Not valid!', default='ok', icon='error')
         return
-
+    ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt)
+    thread = Thread(target=ctrl.execute())
+    thread.start()
     pass
 
 
@@ -30,6 +37,7 @@ def enter():
 program = subprocess.run('dir Engine\\*.exe /b', shell=True,
                          stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE).stdout.decode().split()
+program = [i.split('.exe')[0] for i in program]
 version = '1.0'
 
 # Window Setting
@@ -59,6 +67,7 @@ combo1.current(0)
 scrt = scrtxt.ScrolledText(win, width=60, height=10)
 
 button = Button(win, text='Enter', command=enter)
+button1 = Button(win, text='Clear', command=clear)
 
 # Grid
 lb1.grid(column=0, row=0, sticky='W', padx=5, pady=5)
@@ -77,5 +86,6 @@ combo1.grid(column=1, row=3, sticky='W', padx=5, pady=5)
 scrt.grid(column=0, columnspan=10, row=4, sticky='WE', padx=5, pady=5)
 
 button.grid(column=9, row=5, sticky='E', padx=5, pady=5)
+button1.grid(column=8, row=5, sticky='E', padx=5, pady=5)
 
 win.mainloop()

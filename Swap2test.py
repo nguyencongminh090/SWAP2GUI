@@ -5,7 +5,7 @@ import os
 connect.init('embryo.exe')
 inp = input('Input opening: ')
 inp1 = input('Times: ')
-inp = inp.split(' ')
+inp = inp.split()
 opening = []
 os.system('cls')
 for i in inp:
