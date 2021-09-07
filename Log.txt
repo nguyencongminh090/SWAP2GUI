@@ -2326,3 +2326,23 @@ yxboard
 7,14,2
 done
 YXBALANCETWO
+INFO timeout_turn 30000
+INFO timeout_match 6660000
+INFO time_left 30000
+INFO max_node 500000000
+INFO max_depth 225
+INFO caution_factor 4
+INFO thread_num 8
+INFO thread_split_depth 20
+INFO hash_size 2457600
+INFO pondering 1
+INFO vcthread 0
+INFO rule 1
+INFO usedatabase 1
+START 15 15
+yxboard
+7,14,2
+8,14,1
+12,11,2
+done
+YXBALANCETWO
