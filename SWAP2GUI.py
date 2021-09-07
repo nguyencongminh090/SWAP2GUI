@@ -36,7 +36,7 @@ version = '1.0'
 win = Tk()
 win.geometry("")
 win.resizable(0, 0)
-win.title(f'Swap2 Tool for Gomoku {version}')
+win.title(f'Swap2 Tool for Gomoku ver {version}')
 
 # GUI
 lb1 = Label(win, text='Opening:', font=('Times New Roman', 11))
