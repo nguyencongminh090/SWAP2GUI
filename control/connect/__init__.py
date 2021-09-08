@@ -40,7 +40,7 @@ def check():
             break
 
 
-def timematch(b=None, x):
+def timematch(b, x):
     b = str(b)
     f.writelines('______Process started______\n')
     check()
