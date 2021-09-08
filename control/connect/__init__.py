@@ -72,20 +72,21 @@ def spswap():
 def sp_yixin():
     lst = []
     while True:
-        text = engine.stdout.readline().strip().split()
-        printf(f"[Engine] Answer: {' '.join(text)}")
+        text = engine.stdout.readline().strip().split()        
         try:
             if text[2].upper() == 'SWAP1':
-                if text[3].upper() == 'YES':
+                if text[3].upper() == 'YES':                    
                     printf(f'[Engine] Engine choose black')
                 if text[3].upper() == 'NO':
                     printf(f'[Engine] Engine choose white')
                 return 0
             elif 'MOVE4' in text or 'MOVE5' in text:
                 if 'MOVE5' in text:
+                    printf(f"[Engine] Answer: {' '.join(text)}")
                     lst.append(text[3] + ',' + text[4])
                     return ' '.join(lst)
                 else:
+                    printf(f"[Engine] Answer: {' '.join(text)}")
                     lst.append(text[3] + ',' + text[4])
         except:
             pass

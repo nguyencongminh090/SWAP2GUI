@@ -38,10 +38,11 @@ class Control:
             time.sleep(0.4)
         put('DONE')
         move = spswap().split()
+        kill_engine()
         if move != 'SWAP':
             move = ' '.join([self.pktool(i, 1) for i in move])
         self.printf(f'--> Output: {move}')
-        kill_engine()
+        
 
     def yixin(self, opening, time_in, engine):
         init(engine, self.scrt)
