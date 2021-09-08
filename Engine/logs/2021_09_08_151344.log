@@ -1,0 +1,79 @@
+Compiled on May 17 2021 at 21:00:40
+Launched in Engine\
+Answered : MESSAGE Detected following devices
+Answered : MESSAGE CPU : GenuineIntel : 8 x AVX with 6091MB of memory
+Answered : OK
+Received : INFO max_memory 2147483648
+Received : INFO timeout_match 60
+Received : INFO timeout_turn 60
+Received : INFO game_type 1
+Received : INFO rule 1
+Received : INFO time_left 60
+Received : SWAP2BOARD
+Received : 7,12
+Received : 4,7
+Received : 12,9
+Received : DONE
+Initialized in 0.187241 seconds
+Evaluating opening
+BEST
+CIRCLE ( 7, 5) : U : Q=0.156753 : 0.000278 : 0.842969 : P=0.145615 : Visits=6 : Children=30
+CIRCLE ( 6, 5) : U : Q=0.132858 : 0.000629 : 0.866512 : P=0.139959 : Visits=5 : Children=30
+CIRCLE ( 8, 5) : U : Q=0.233655 : 0.000406 : 0.765939 : P=0.103836 : Visits=4 : Children=30
+CIRCLE ( 7, 6) : U : Q=0.128916 : 0.001220 : 0.869865 : P=0.104903 : Visits=4 : Children=30
+CIRCLE ( 8, 4) : U : Q=0.233286 : 0.001803 : 0.764912 : P=0.073104 : Visits=3 : Children=30
+CIRCLE ( 7, 3) : U : Q=0.442212 : 0.001154 : 0.556634 : P=0.055783 : Visits=2 : Children=30
+CIRCLE ( 6, 3) : U : Q=0.352373 : 0.001930 : 0.645698 : P=0.050006 : Visits=2 : Children=30
+CIRCLE ( 5, 4) : U : Q=0.342658 : 0.003070 : 0.654272 : P=0.047114 : Visits=2 : Children=30
+CIRCLE ( 9, 4) : U : Q=0.299848 : 0.002220 : 0.697932 : P=0.057812 : Visits=2 : Children=30
+CIRCLE ( 6, 4) : U : Q=0.290000 : 0.001865 : 0.708135 : P=0.056504 : Visits=2 : Children=30
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   19  19  _   _   _   _   _   _   _   _   _ 
+  _   _   19  19  38  19  19  _   _   _   _   _   _   _   _ 
+  _   _   19  38  38  96  19  19  _   _   _   _   _   _   _ 
+  _   _   19  38  O  115  76  19  _   _   _   _   _   _   _ 
+  _   _   _   19  57  76  19  _   _   _   _   _   _   _   _ 
+  _   _   19  _   38  19  19  _   _   _   _   _   X   _   _ 
+  _   _   _   _   19  19  19  19  _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   X   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+  _   _   _   _   _   _   _   _   _   _   _   _   _   _   _ 
+
+CROSS  ( 0, 0) : U : Q=0.182557 : 0.002818 : 0.814625 : P=0.000000 : Visits=60 : Children=30
+CIRCLE ( 7, 5) : U : Q=0.156753 : 0.000278 : 0.842969 : P=0.145615 : Visits=6 : Children=30
+CROSS  (12, 9) : U : Q=0.000000 : 0.000000 : 0.000000 : P=0.269116 : Visits=0 : Children=0
+----EvaluationQueue----
+avg batch size = 3.500000
+network   = 0.140173s : 2 : 70.086569 ms
+pack      = 0.000000s : 2 : 0.000000 us
+unpack    = 0.000000s : 2 : 0.000000 us
+
+----SearchStats----
+nb_duplicate_nodes = 1
+select     = 0.000000s : 9 : 0.000000 us
+expand     = 0.012245s : 7 : 1.749264 ms
+vcf solver = 0.965029s : 7 : 137.861226 ms
+backup     = 0.000000s : 3 : 0.000000 us
+evaluate   = 0.000000s : 7 : 0.000000 us
+game rules = 0.000000s : 9 : 0.000000 us
+
+----TreeStats----
+used nodes      = 930
+allocated nodes = 1000000
+proven nodes    = 0 : 0 : 0 (win:draw:loss)
+memory = 0MB
+----CacheStats----
+hit rate = 0.000000%
+time_seek    = 0.000000s : 60 : 0.000000 us
+time_insert  = 0.000000s : 60 : 0.000000 us
+time_cleanup = 0.000000s : 1 : 0.000000 us
+entries = 60 : 0 : 60 (stored:buffered:allocated)
+memory = 48MB
+
+Answered : MESSAGE depth 1-3 ev 81.6 n 60 n/s 45 tm 1323 pv Oh5 Xm9
+Answered : 2,9
+Received : END

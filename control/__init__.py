@@ -8,7 +8,7 @@ class Control:
         self.engine = engine
         self.protocol = protocol
         self.scrt = scrt
-        self.memory = memory
+        self.memory = int(memory)
 
     def printf(self, *txt, endl='\n'):
         try:
@@ -37,8 +37,9 @@ class Control:
             time.sleep(0.4)
         put('DONE')
         move = spswap().split()
-        move = ' '.join([self.pktool(i, 1) for i in move])
-        self.printf(f'--> Output:{move}')
+        if move != 'SWAP':
+            move = ' '.join([self.pktool(i, 1) for i in move])
+        self.printf(f'--> Output: {move}')
         kill_engine()
 
     def yixin(self, opening, time_in, engine):

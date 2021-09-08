@@ -31,15 +31,24 @@ def enter():
         return
 
     # Check Max_memory field
-    if txbox2.get() == '':
-        messagebox.showerror(title='Error', message='Max_memory can not be blank!', default='ok', icon='error')
-        return
-    elif not txbox2.get().isnumeric():
+    if txbox2.get() != '' and not txbox2.get().isnumeric():
         messagebox.showerror(title='Error', message='Max_memory must be a number!', default='ok', icon='error')
+        print(f'Memory: [{txbox2.get()}]')
         return
-    ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt)
-    thread = Thread(target=ctrl.execute())
+    scrt.delete('0.0', END)
+    scrt.insert('insert', f'[User] Openning: {txbox.get()}\n')
+    scrt.insert('insert', f'[User] Time: {time_in} sec\n')
+    scrt.insert('insert', f'[User] Engine: {combo.get()}.exe\n')
+    scrt.insert('insert', f'[User] Protocol: {combo1.get()}\n')
+    if txbox2.get() == '':
+        scrt.insert('insert', '[User] Max memory: 2 GB\n')
+        ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt)
+    else:
+        scrt.insert('insert', f'[User] Max memory: {txbox2.get()} GB\n')
+        ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt, txbox2.get())
+    thread = Thread(target=ctrl.execute)
     thread.start()
+
     pass
 
 
@@ -54,6 +63,7 @@ version = '1.0'
 win = Tk()
 win.geometry("")
 win.resizable(0, 0)
+win.iconbitmap('icon.ico')
 win.title(f'Swap2 Tool for Gomoku ver {version}')
 
 # GUI
@@ -63,7 +73,7 @@ lb3 = Label(win, text='Engine:', font=('Times New Roman', 11))
 lb4 = Label(win, text='(Default is 60 seconds)', font=('Times New Roman', 10, 'italic'))
 lb5 = Label(win, text='Protocol:', font=('Times New Roman', 11))
 lb6 = Label(win, text='Max memory:', font=('Times New Roman', 11))
-lb7 = Label(win, text='(MB)', font=('Times New Roman', 10, 'italic'))
+lb7 = Label(win, text='(GB) Default is 2 GB ', font=('Times New Roman', 10, 'italic'))
 
 txbox = Entry(win, width=23)
 txbox1 = Entry(win, width=23)

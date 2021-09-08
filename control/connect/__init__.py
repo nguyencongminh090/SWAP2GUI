@@ -40,7 +40,7 @@ def check():
             break
 
 
-def timematch(b, x):
+def timematch(b, x=2):
     b = str(b)
     f.writelines('______Process started______\n')
     check()
@@ -68,13 +68,13 @@ def spswap():
         try:
             text = engine.stdout.readline().strip()
             if keyboard.is_pressed('esc'):
-                printf('Stop by user!')
+                printf('[Stop by user]')
                 break
             if 'MESSAGE' in text:
-                printf(text.split('MESSAGE')[1].upper())
+                printf('[Engine]', text.split('MESSAGE')[1].upper().strip())
             if text == 'SWAP' or ',' in text and 'MESSAGE' not in text:
                 if 'DEBUG' not in text:
-                    printf(text)
+                    printf('[Engine]', text)
                     return text
         except:
             pass
