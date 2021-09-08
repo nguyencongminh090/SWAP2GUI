@@ -13,10 +13,12 @@ def clear():
 
 
 def enter():
+    # Check opening field
     if txbox.get() == '':
         messagebox.showerror(title='Error', message='Opening can not be blank!', default='ok', icon='error')
         return
 
+    # Check time field
     if txbox1.get() == '':
         time_in = 60
     elif txbox1.get().isnumeric() and int(txbox1.get()) < 0:
@@ -26,6 +28,14 @@ def enter():
         time_in = int(txbox1.get())
     else:
         messagebox.showerror(title='Error', message='Not valid!', default='ok', icon='error')
+        return
+
+    # Check Max_memory field
+    if txbox2.get() == '':
+        messagebox.showerror(title='Error', message='Max_memory can not be blank!', default='ok', icon='error')
+        return
+    elif not txbox2.get().isnumeric():
+        messagebox.showerror(title='Error', message='Max_memory must be a number!', default='ok', icon='error')
         return
     ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt)
     thread = Thread(target=ctrl.execute())
@@ -52,9 +62,12 @@ lb2 = Label(win, text='Time (sec):', font=('Times New Roman', 11))
 lb3 = Label(win, text='Engine:', font=('Times New Roman', 11))
 lb4 = Label(win, text='(Default is 60 seconds)', font=('Times New Roman', 10, 'italic'))
 lb5 = Label(win, text='Protocol:', font=('Times New Roman', 11))
+lb6 = Label(win, text='Max memory:', font=('Times New Roman', 11))
+lb7 = Label(win, text='(MB)', font=('Times New Roman', 10, 'italic'))
 
 txbox = Entry(win, width=23)
 txbox1 = Entry(win, width=23)
+txbox2 = Entry(win, width=23)
 
 combo = Combobox(win, width=20)
 combo['values'] = program
@@ -75,17 +88,19 @@ lb2.grid(column=0, row=1, sticky='W', padx=5, pady=5)
 lb3.grid(column=0, row=2, sticky='W', padx=5, pady=5)
 lb4.grid(column=2, row=1, sticky='W', padx=5, pady=5)
 lb5.grid(column=0, row=3, sticky='W', padx=5, pady=5)
-
+lb6.grid(column=0, row=4, sticky='W', padx=5, pady=5)
+lb7.grid(column=2, row=4, sticky='W', padx=5, pady=5)
 
 txbox.grid(column=1, row=0, sticky='W', padx=5, pady=5)
 txbox1.grid(column=1, row=1, sticky='W', padx=5, pady=5)
+txbox2.grid(column=1, row=4, sticky='W', padx=5, pady=5)
 
 combo.grid(column=1, row=2, sticky='W', padx=5, pady=5)
 combo1.grid(column=1, row=3, sticky='W', padx=5, pady=5)
 
-scrt.grid(column=0, columnspan=10, row=4, sticky='WE', padx=5, pady=5)
+scrt.grid(column=0, columnspan=10, row=5, sticky='WE', padx=5, pady=5)
 
-button.grid(column=9, row=5, sticky='E', padx=5, pady=5)
-button1.grid(column=8, row=5, sticky='E', padx=5, pady=5)
+button.grid(column=9, row=6, sticky='E', padx=5, pady=5)
+button1.grid(column=8, row=6, sticky='E', padx=5, pady=5)
 
 win.mainloop()

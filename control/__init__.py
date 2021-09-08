@@ -1,10 +1,10 @@
-from control import *
+from control.connect import *
 
 
 class Control:
-    def __init__(self, opening: str, time, engine, protocol, scrt):
+    def __init__(self, opening: str, time_in, engine, protocol: str, scrt):
         self.opening = opening
-        self.time = time
+        self.time = time_in
         self.engine = engine
         self.protocol = protocol
         self.scrt = scrt
@@ -16,18 +16,42 @@ class Control:
         except:
             pass
 
+    @staticmethod
+    def pktool(move, q):
+        if q == 0:
+            x = move[0]
+            y = move[1:]
+            return str(ord(x) - 97) + ',' + str(15 - int(y))
+        if q == 1:
+            x = int(move.split(',')[0])
+            y = int(move.split(',')[1])
+            return str(chr(x + 97)) + str(int(15 - y))
+
+    def gomocup(self, opening, time_in, engine):
+        init(engine, self.scrt)
+        timematch(time_in)
+        put('SWAP2BOARD')
+        for i in opening:
+            put(i)
+            time.sleep(0.4)
+        put('DONE')
+        move = spswap().split()
+        move = ' '.join([self.pktool(i, 1) for i in move])
+        self.printf(f'--> Output:{move}')
+        kill_engine()
+
+    def yixin(self, opening, time_in, engine):
+        pass
+
     def execute(self):
         opening = self.opening.split()
         lst = []
         try:
-            for i in opening:
-                x = str(ord(i[:1]) - 97)
-                y = str(int(i[1:]) - 1)
-                lst.append(x + ',' + y)
+            lst = [self.pktool(i, 0) for i in opening]
         except:
             self.printf('An error occur while convert opening to Piskvork coord.')
             return
-        # Show opening after convert
-        for i in lst:
-            self.printf(i, endl=' ')
-        pass
+        if 'GOMOCUP' in self.protocol.upper():
+            self.gomocup(lst, self.time, self.engine)
+        elif 'YIXIN' in self.protocol.upper():
+            self.yixin(self.opening, self.time, self.engine)

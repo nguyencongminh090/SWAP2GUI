@@ -41,24 +41,10 @@ def check():
 
 
 def timematch(b=None):
-    """
-    Setup time.
-    :return:
-    """
-    global time_s
-    time_s = str(b)
-    if b is None:
-        tm = input('Time match: ')
-        time_s = int(tm) * 1000
-        b = str(time_s)
-    else:
-        b = str(b)
+    b = str(b)
     f.writelines('______Process started______\n')
     check()
-    if name.upper() == 'ALPHAGOMOKU':
-        put('INFO max_memory ' + str(1024**3*6))
-    elif name.upper() == 'EMBRYO':
-        put('INFO max_memory ' + str(1024**3*2))
+    put('INFO max_memory ' + str(1024**3*2))
     put('INFO timeout_match ' + b)
     put('INFO timeout_turn ' + b)
     put('INFO game_type 1')
@@ -82,9 +68,13 @@ def spswap():
         try:
             text = engine.stdout.readline().strip()
             if keyboard.is_pressed('esc'):
+                printf('Stop by user!')
                 break
+            if 'MESSAGE' in text:
+                printf(text.split('MESSAGE')[1].upper())
             if text == 'SWAP' or ',' in text and 'MESSAGE' not in text:
                 if 'DEBUG' not in text:
+                    printf(text)
                     return text
         except:
             pass
@@ -92,37 +82,6 @@ def spswap():
 
 def close():
     f.close()
-
-
-def ea():
-    put('ABOUT')    
-    global name, version, author, country, email
-    try:
-        about = get().split(', ')
-        name = ''
-        version = ''
-        author = ''
-        country = ''
-        email = ''
-        for i in about:
-            if 'name' in i:
-                name = i.split('"')[1]
-            elif 'version' in i:
-                version = i.split('"')[1]
-            elif 'author' in i:
-                author = i.split('"')[1]
-            elif 'country' in i:
-                country = i.split('"')[1]
-            elif 'email' in i:
-                email = i.split('"')[1]
-        return name, version, author, country, email
-    except:
-        name = ''
-        version = ''
-        author = ''
-        country = ''
-        email = ''
-        return name, version, author, country, email
 
 
 def kill_engine():
