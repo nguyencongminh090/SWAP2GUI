@@ -1,4 +1,5 @@
 from control.connect import *
+import time
 
 
 class Control:
@@ -43,11 +44,37 @@ class Control:
         kill_engine()
 
     def yixin(self, opening, time_in, engine):
-        pass
+        init(engine, self.scrt)
+        put('INFO timeout_turn ' + str(time_in * 1000))
+        put('INFO timeout_match ' + str(time_in * 1000))
+        put('INFO time_left ' + str(time_in * 1000))
+        put('INFO max_node 500000000')  # Level 10
+        put('INFO max_depth 225')
+        put('INFO caution_factor 4')
+        put('INFO thread_num 8')  # Set thread
+        put('INFO thread_split_depth 20')
+        put(f'INFO hash_size {1024 ** 2 * self.memory}')
+        put('INFO pondering 0')
+        put('INFO vcthread 0')  # Maybe Global Search
+        put('INFO rule 1')
+        put('START 15 15')
+        put('yxboard')
+        for i in range(len(opening)):
+            if len(opening) % 2 == i % 2:
+                put(opening[i] + ',1')
+            else:
+                put(opening[i] + ',2')
+            time.sleep(0.1)
+        put('done')
+        put('yxswap2step2')
+        move = sp_yixin().split()
+        kill_engine()
+        if move != 0:
+            move = ' '.join([self.pktool(i, 1) for i in move])
+            printf(f'--> Output: {move}')
 
     def execute(self):
         opening = self.opening.split()
-        lst = []
         try:
             lst = [self.pktool(i, 0) for i in opening]
         except:
@@ -56,4 +83,4 @@ class Control:
         if 'GOMOCUP' in self.protocol.upper():
             self.gomocup(lst, self.time, self.engine)
         elif 'YIXIN' in self.protocol.upper():
-            self.yixin(self.opening, self.time, self.engine)
+            self.yixin(lst, self.time, self.engine)

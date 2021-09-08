@@ -46,6 +46,7 @@ def enter():
     else:
         scrt.insert('insert', f'[User] Max memory: {txbox2.get()} GB\n')
         ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt, txbox2.get())
+    scrt.insert('insert', '-' * 60 + '\n')
     thread = Thread(target=ctrl.execute)
     thread.start()
 

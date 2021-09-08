@@ -1,4 +1,3 @@
-import time
 import subprocess
 import keyboard
 
@@ -24,6 +23,7 @@ def printf(*txt):
 
 
 def put(command):
+    printf(f'[Engine] Send: {command}')
     try:
         engine.stdin.write(command + '\n')
         f.write(command + '\n')
@@ -52,17 +52,6 @@ def timematch(b, x=2):
     put('INFO time_left ' + b)
 
 
-def getms():
-    """
-    Get engine's message!
-    """
-    try:
-        text = engine.stdout.readline().strip()
-        return text
-    except:
-        pass
-
-
 def spswap():
     while True:
         try:
@@ -71,11 +60,33 @@ def spswap():
                 printf('[Stop by user]')
                 break
             if 'MESSAGE' in text:
-                printf('[Engine]', text.split('MESSAGE')[1].upper().strip())
+                printf('[Engine] Answer:', text.split('MESSAGE')[1].upper().strip())
             if text == 'SWAP' or ',' in text and 'MESSAGE' not in text:
                 if 'DEBUG' not in text:
                     printf('[Engine]', text)
                     return text
+        except:
+            pass
+
+
+def sp_yixin():
+    lst = []
+    while True:
+        text = engine.stdout.readline().strip().split()
+        printf(f"[Engine] Answer: {' '.join(text)}")
+        try:
+            if text[2].upper() == 'SWAP1':
+                if text[3].upper() == 'YES':
+                    printf(f'[Engine] Engine choose black')
+                if text[3].upper() == 'NO':
+                    printf(f'[Engine] Engine choose white')
+                return 0
+            elif 'MOVE4' in text or 'MOVE5' in text:
+                if 'MOVE5' in text:
+                    lst.append(text[3] + ',' + text[4])
+                    return ' '.join(lst)
+                else:
+                    lst.append(text[3] + ',' + text[4])
         except:
             pass
 
@@ -87,55 +98,3 @@ def close():
 def kill_engine():
     put('END')
     engine.kill()
-
-
-# New Function
-def evaluation(num):
-    """
-    - Max evaluation: 10000
-    - Testcase:
-    + [19] = 0.19
-    + [-30] = -0.3
-    + [-227] = -2.27
-    + [-225] = -2.25
-    + [-M22] = Lose in 22 moves
-    + [6500] = +65
-    -> Convert to win-rate:
-    + [0.19] = (0.19 + 200) / 100 = 50.095%
-    """
-    try:
-        num = float(num)
-        if num > 1000:
-            k = open('Error.txt', 'a+')
-            k.write('*** ' + time.ctime() + ' ***\n')
-            msg = 'Raise Error:' + str(num) + ' > ' + '10000'
-            k.write(msg + '\n')
-            k.write('~' * len(msg) + '\n')
-            k.close()
-            return 'Error: {} > {}'.format(num, 1000)
-        num = ((num / 10 + 100) / 200) * 100
-        return '{}%'.format(round(num, 2))
-    except:
-        if str(num).isascii():
-            if '-' in num:
-                solve = 'Lose in ' + num.split('-M')[1] + (' moves' if num.split('-M')[1] >= '2' else ' move')
-                return solve
-            elif 'M' in num:
-                solve = 'Win in ' + num.split('M')[1] + (' moves' if num.split('M')[1] >= '2' else ' move')
-                return solve
-            else:
-                k = open('Error.txt', 'a+')
-                k.write('*** ' + time.ctime() + ' ***\n')
-                msg = 'Raise Error: ' + str(num) + '(Win/Lose)'
-                k.write(msg + '\n')
-                k.write('~' * len(msg) + '\n')
-                k.close()
-                raise ValueError(msg + ' (Win/Lose)')
-        else:
-            k = open('Error.txt', 'a+')
-            k.write('*** ' + time.ctime() + ' ***\n')
-            msg = 'Raise Error: {} (String)'.format(num)
-            k.write(msg + '\n')
-            k.write('~' * len(msg) + '\n')
-            k.close()
-            raise ValueError(msg)
