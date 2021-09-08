@@ -2,12 +2,13 @@ from control.connect import *
 
 
 class Control:
-    def __init__(self, opening: str, time_in, engine, protocol: str, scrt):
+    def __init__(self, opening: str, time_in, engine, protocol: str, scrt, memory=2):
         self.opening = opening
         self.time = time_in
         self.engine = engine
         self.protocol = protocol
         self.scrt = scrt
+        self.memory = memory
 
     def printf(self, *txt, endl='\n'):
         try:
@@ -29,7 +30,7 @@ class Control:
 
     def gomocup(self, opening, time_in, engine):
         init(engine, self.scrt)
-        timematch(time_in)
+        timematch(time_in, self.memory)
         put('SWAP2BOARD')
         for i in opening:
             put(i)

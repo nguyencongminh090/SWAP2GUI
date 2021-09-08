@@ -40,11 +40,11 @@ def check():
             break
 
 
-def timematch(b=None):
+def timematch(b=None, x):
     b = str(b)
     f.writelines('______Process started______\n')
     check()
-    put('INFO max_memory ' + str(1024**3*2))
+    put('INFO max_memory ' + str(1024**3*x))
     put('INFO timeout_match ' + b)
     put('INFO timeout_turn ' + b)
     put('INFO game_type 1')
