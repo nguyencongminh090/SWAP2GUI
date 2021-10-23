@@ -42,10 +42,10 @@ def enter():
     scrt.insert('insert', f'[User] Protocol: {combo1.get()}\n')
     if txbox2.get() == '':
         scrt.insert('insert', '[User] Max memory: 2 GB\n')
-        ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt)
+        ctrl = Control(txbox.get(), time_in * 1000, combo.get(), combo1.get(), scrt)
     else:
         scrt.insert('insert', f'[User] Max memory: {txbox2.get()} GB\n')
-        ctrl = Control(txbox.get(), time_in, combo.get(), combo1.get(), scrt, txbox2.get())
+        ctrl = Control(txbox.get(), time_in * 1000, combo.get(), combo1.get(), scrt, txbox2.get())
     scrt.insert('insert', '-' * 60 + '\n')
     thread = Thread(target=ctrl.execute)
     thread.start()
